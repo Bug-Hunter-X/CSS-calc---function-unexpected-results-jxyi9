@@ -1,0 +1,1 @@
+The CSS property `calc()` can sometimes lead to unexpected results if units are not consistently used or if there are issues with operator precedence. For instance, `width: calc(100% - 10px);` is fine, but `width: calc(100% - 10);` (missing 'px') will likely cause rendering problems.
