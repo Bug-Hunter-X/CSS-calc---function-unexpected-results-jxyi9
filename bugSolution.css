@@ -1,0 +1,10 @@
+/* Correct usage of calc() with consistent units */
+#myElement {
+  width: calc(100% - 10px);
+  /* other styles */
+}
+
+/* Ensuring correct operator precedence */
+#anotherElement {
+  width: calc((100% - 50px) / 2);
+} 
